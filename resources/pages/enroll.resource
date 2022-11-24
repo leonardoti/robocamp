@@ -26,10 +26,12 @@ Fill Start Date
     Focus    css=input[name=start_date]
 
     ${start_date}    Get Start Date 
-    Log    ${start_date}
+    Log    Data Início: ${start_date}
 
     FOR    ${number}    IN    @{start_date}
         Keyboard Key    press    ${number}     
     END
 
+Submmit Enroll Form
+    Click    css=button >> text=Salvar
 
