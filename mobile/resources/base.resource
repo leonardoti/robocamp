@@ -2,10 +2,22 @@
 Documentation     Todos os resources para execução do projeto são
 ...               importados neste centralizador.   
 
+# Bibliotecas! 
 Library    AppiumLibrary
 Library    JSONLibrary
 
+# Resources - Mobile!
 Resource    screens/login.resource
+Resource    screens/help.resource
+Resource    components/popup.resource
+Resource    components/footer.resource
+
+# Resources - API's!
+Resource    services/sessions.resource
+Resource    services/students.resource
+
+# Resources - Banco de Dados!
+Resource    database.resource
 
 *** Keywords ***
 Start App
