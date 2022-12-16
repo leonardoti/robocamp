@@ -5,6 +5,7 @@ Documentation     Todos os resources para execução do projeto são
 # Resources - WEB!
 Resource    components/navbar.resource
 Resource    components/toast.resource
+Resource    components/notification.resource
 Resource    pages/login.resource
 Resource    pages/enroll.resource
 Resource    database.resource

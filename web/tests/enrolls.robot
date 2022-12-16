@@ -3,6 +3,8 @@ Documentation        Suíte de Testes de Matrícula de Alunos!
 
 Resource    ../resources/base.resource
 
+Test Teardown    Take Screenshot
+
 *** Test Cases ***
 Deve matricular um Alunos
 

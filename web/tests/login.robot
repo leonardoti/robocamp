@@ -3,6 +3,8 @@ Documentation        Suíte de Testes de Autenticação!
 
 Resource    ../resources/base.resource
 
+Test Teardown    Take Screenshot
+
 *** Test Cases ***
 Login do Administrador
     Go To Login Page    
